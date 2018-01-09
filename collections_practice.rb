@@ -15,6 +15,6 @@ def swap_elements(arr)
   # new_second = arr[2]
   # new_third = arr[1]
   arr.push(arr[1])
-  arr.delete(1)
+  arr[1] = nil
   arr
 end
