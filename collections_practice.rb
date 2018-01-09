@@ -16,4 +16,5 @@ def swap_elements(arr)
   # new_third = arr[1]
   arr.push(arr[1])
   arr.delete(arr[1])
+  arr
 end
