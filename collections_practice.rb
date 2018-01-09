@@ -45,7 +45,7 @@ end
 
 def add_s(arr)
   arr.collect do |word|
-    if array[1] == word
+    if arr[1] == word
       word
     else
       word + "s"
