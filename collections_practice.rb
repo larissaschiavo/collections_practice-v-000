@@ -14,5 +14,5 @@ end
 def swap_elements(arr)
   # new_second = arr[2]
   # new_third = arr[1]
-  return arr.unshift
+  arr.unshift(2)
 end
