@@ -29,5 +29,5 @@ def kesha_maker(arr)
     p split_word
     split_word[2] = "$"
     split_word.join
-  end 
+  end
 end
