@@ -15,5 +15,5 @@ def swap_elements(arr)
   # new_second = arr[2]
   # new_third = arr[1]
   arr.push(arr[1])
-  arr.uniq
+  arr.delete(arr[1])
 end
